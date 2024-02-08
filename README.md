@@ -1,4 +1,4 @@
-#Serverless Image Resizing API with AWS Lambda
+# Serverless Image Resizing API with AWS Lambda
 
 Objective:
 Design a serverless Lambda function on AWS that reads an image file from an S3 bucket, creates multiple sizes of it, and saves them back to the same S3 bucket. Additionally, implement an API to trigger this function securely.
