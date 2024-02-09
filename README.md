@@ -29,6 +29,7 @@ Design a serverless Lambda function on AWS that reads an image file from an S3 b
    - Configure AWS API Gateway to create a REST API.
    - Define a resource and method (e.g., POST) to upload image in S3 bucket.
    - Define a resource and method (e.g., GET) for triggering the Lambda function.
+   - You can combine above two steps in one resource also, your choice.
    - Enable CORS (Cross-Origin Resource Sharing) if necessary.
 
 4. **Implement Security Measures:**
@@ -62,6 +63,6 @@ Design a serverless Lambda function on AWS that reads an image file from an S3 b
 
 2. **Provide AWS Credentials for Evaluation (Optional)**: If you're comfortable sharing your AWS credentials, you can provide them on above mentioned emails. These credentials would allow them to access your AWS resources for evaluation purposes.
 
-3. **API Endpoint/URL Structure**: If you prefer not to share your AWS credentials, you can instead provide an API endpoint or URL structure that we can use to check different sized images of the converted image.
+3. **API Endpoint/URL Structure**: If you prefer not to share your AWS credentials, you can instead provide an API endpoint or URL structure `(e.g https://example.com/image?size=100x100)` that we can use to check different sized images of the converted image.
 
 Note: Ensure adherence to best practices for serverless architecture, security, and AWS services usage throughout the assignment.
