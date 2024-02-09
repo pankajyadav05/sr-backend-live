@@ -3,14 +3,14 @@
 Objective:
 Design a serverless Lambda function on AWS that reads an image file from an S3 bucket, creates multiple sizes of it, and saves them back to the same S3 bucket. Additionally, implement an API to trigger this function securely.
 
-Requirements:
+### Requirements:
 
 1. Create a Lambda function using Node.js or Python.
 2. Implement image resizing functionality to generate multiple sizes (e.g., thumbnail, medium, large) of the image.
 3. Set up AWS API Gateway to create an API endpoint that triggers the Lambda function.
 4. Ensure security measures are implemented to protect the API endpoint and AWS resources.
 
-Instructions:
+### Instructions:
 
 1. **Setup AWS Resources:**
 
