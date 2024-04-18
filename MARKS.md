@@ -27,6 +27,8 @@
 4. **Security Measures (20 marks):**
 
    - Authentication mechanism implementation: 10 marks
+     - Key based auth: 5 marks
+     - JWT based auth: 10 marks 
    - Encryption of sensitive data: 5 marks
    - Logging and monitoring setup: 5 marks
 
